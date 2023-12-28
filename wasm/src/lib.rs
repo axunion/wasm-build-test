@@ -59,6 +59,6 @@ impl SampleData {
     }
 
     pub fn get_additional_data(&self) -> AdditionalData {
-        AdditionalData::new()
+        self.additional_data.clone()
     }
 }
